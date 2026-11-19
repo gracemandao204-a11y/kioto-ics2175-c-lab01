@@ -2,10 +2,10 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
+ * Student Name: Malisa Grace Mandao
+ * Registration Number: ENB211-0039/2025
+ * Variant ID: V19   (assigned by your lecturer, e.g. V07)
+ * Scenario: Study hours    (assigned by your lecturer)
  *
  * Instructions:
  *   - Record your assigned variant details above.
@@ -14,15 +14,14 @@
  *   - Store the result in a meaningfully named variable.
  *   - Print the result using the required output label.
  */
-
 #include <stdio.h>
 
-int main(void)
-{
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+int main() {
+  int hours_per_day =3;
+  int days =7;
+  int total_study_hours =hours_per_day*days;
 
-    return 0;
+  printf("The total number of hours is %d ",total_study_hours);
+
+   return 0;
 }
