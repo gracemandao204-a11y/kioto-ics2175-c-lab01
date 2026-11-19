@@ -1,4 +1,4 @@
-
+/*
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 01: Hello Kioto
  *
