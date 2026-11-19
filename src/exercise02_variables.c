@@ -10,26 +10,19 @@
  *   - Use meaningful variable names.
  *   - Display each value with the correct printf format specifier.
  */
-include <stdio.h>
+
+
+    #include <stdio.h>
 
 int main() {
-    int labnumber =2;
-    double temperature =24.5;
-    float rainfall =12.8f;
-    char grade ='A';
-
-    printf("lab number: %d\n" , lab number);
-    printf(Temperature: %.1f mm\n",Temperature);
-    printf("Rainfall: %. if mm\n" , rainfall);
-    Printf(Grade: %c\n",grade)
-        
-
-
-
-
-
-
-    return 0;
+  int hours_per_day = 3;
+  int days = 7;
+  float flour = 22.255 ;
+  double weight =27.2 ;
+  char FirstLetter = 'M';
+  printf("I work for %f hours for %ddays\n", days, hours_per_day);
+  return 0;
+}
 }
 
 
